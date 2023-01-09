@@ -1,0 +1,50 @@
+*
+{
+    background-color: black;
+    color:orangered;
+}
+h1
+{
+    font-size: 2.4rem;
+}
+.tabuada
+{
+    margin: 20px;
+}
+.resposta .input
+{
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    color: orangered;
+    font-size: 8.2rem;
+    text-align: center;
+    margin: 0px 500px;
+    border: solid 6px orangered;
+    border-radius: 8px;
+}
+.tabuada a
+{
+    text-decoration: none;
+    margin: 5px;
+    background-color: beige;
+    font-size: 2.1rem;
+    border: solid 6px orangered;
+    border-radius: 8px;
+    margin-left: 20px;
+
+
+}
+span
+{
+    background-color: brown;
+    color: #fff;
+    margin-left: 100px;
+}
+#media
+{
+    color: aqua;
+    background-color: #000;
+    padding: 5px;
+    text-decoration: none;
+}
