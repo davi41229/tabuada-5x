@@ -1,4 +1,4 @@
-web: gunicorn -b :$PORT tabuada-5x:tabuada
+web: gunicorn -b :$PORT tabuada-5x:main
 
 
 
