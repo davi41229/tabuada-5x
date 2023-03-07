@@ -1,5 +1,5 @@
 from flask import render_template, url_for, redirect, request
-from app import tabuada
+from app import tabuada, os
 
 
 @tabuada.route("/")
@@ -96,5 +96,5 @@ def media():
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT"), "5000")
-    app.run(host="0.0.0.0", port=port)
+    tabuada.run(host="0.0.0.0", port=port)
 
