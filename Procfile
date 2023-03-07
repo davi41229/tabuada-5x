@@ -1,4 +1,4 @@
-web: gunicorn -b :$PORT __init__:tabuada
+web: gunicorn __init__:tabuada
 
 
 
