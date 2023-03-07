@@ -81,17 +81,6 @@ def mult11():
     resultado = mult11
     return render_template("index.html", resultado=resultado)
 
-@tabuada.route("/media")
-def media():
-    n1 = 8
-    n2 = 6
-    n3 = 7
-    n4 = 5
-    media = (n1+n2+n3+n4) / 4
-    if media:
-        return render_template("index.html", media=media)
-    
-    
 
 
 if __name__ == "__main__":
