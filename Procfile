@@ -1,4 +1,4 @@
-web: gunicorn __init__:tabuada
+web: gunicorn main:tabuada
 
 
 
